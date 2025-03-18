@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "496414172863",
+    "firebase_url": "https://ourtwitter-f7bc6-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ourtwitter-f7bc6",
+    "storage_bucket": "ourtwitter-f7bc6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496414172863:android:d87fcf1a9a57fb03ff080a",
+        "android_client_info": {
+          "package_name": "com.example.ourtwitter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFok_fDuzWqh-545F6EI9kkesQSK4JTG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
