@@ -19,10 +19,18 @@ class Post extends ConsumerWidget {
     final usericon = ref.watch(usericonProvider);
     final message_textfield = TextField(
       controller: messageController,
-
+      decoration: InputDecoration(
+              labelText: "入力してください",
+              enabledBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.blue, width: 2.0), // 通常時の枠の色
+              ),
+              focusedBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.red, width: 2.0), // フォーカス時の枠の色
+              ),
+            ),
     );
-    Logout(){
-      context.push('/login');
+    Back(){
+      context.pop();
     }
     Input_database(){
       final service = Database();
@@ -38,7 +46,7 @@ class Post extends ConsumerWidget {
           leading: IconButton(
             icon: Icon(Icons.arrow_back),
             onPressed: () {
-              Logout();
+              Back();
             },
           ),
         ),
